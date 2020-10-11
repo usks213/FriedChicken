@@ -78,7 +78,6 @@
     <Compile Include="Assets\Script\TitleButton.cs" />
     <Compile Include="Assets\Script\TutorialButton.cs" />
     <Compile Include="Assets\Script\gameMgr.cs" />
-    <Compile Include="Assets\Script\llllllllllllllllllllllllll.cs" />
     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
