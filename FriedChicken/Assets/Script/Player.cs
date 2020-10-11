@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
     [SerializeField] float moveForce;
-    Rigidbody2D rb2d;
+    Rigidbody rb2d;
     AudioSource source;
     [SerializeField] AudioClip jumpSE;
     [SerializeField] GoalUI goalUI;
@@ -14,7 +14,7 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        rb2d = transform.GetComponent<Rigidbody2D>();
+        rb2d = transform.GetComponent<Rigidbody>();
         source = transform.GetComponent<AudioSource>();
     }
 
@@ -38,6 +38,15 @@ public class Player : MonoBehaviour
         {
             Quaternion q = Quaternion.Euler(0, 0, -1);
             transform.rotation *= q;
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.transform.tag == "Goal")
+        {
+            //SceneManager.LoadScene("ResultScene");
+            goalUI.StartGoal();
         }
     }
 

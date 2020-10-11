@@ -48,7 +48,7 @@ public class PlayerLife : MonoBehaviour
         return MaxLife;
     }
    
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter(Collision collision)
     {
        
     }

@@ -21,12 +21,13 @@ public class Needl : MonoBehaviour
         
     }
 
-    private void OnCollisionStay2D(Collision2D collision)
+
+    private void OnCollisionStay(Collision collision)
     {
         if(collision.transform.tag == "Player")
         {
             // ノックバック
-            Rigidbody2D rb2d = collision.transform.GetComponent<Rigidbody2D>();
+            Rigidbody rb2d = collision.transform.GetComponent<Rigidbody>();
             Vector3 vec = collision.transform.position - transform.position;
             vec = vec.normalized;
             rb2d.AddForce(vec * colForce);
