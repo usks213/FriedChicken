@@ -28,7 +28,7 @@ public class CloudCreate : MonoBehaviour
             //}
             pos.x = Random.Range(-nRangeLR, nRangeLR);
             pos.y = Random.Range(0, nRangeT);
-            pos.z = 0;
+            pos.z = 1;
             Instantiate(cloud, pos, Quaternion.identity);
         }
     }
