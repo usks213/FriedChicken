@@ -5,10 +5,19 @@ using UnityEngine.SceneManagement;
 
 public class TutorialButton : MonoBehaviour
 {
-    //ボタンが押された時に実行される関数
-    public void GotoGame()
+	[SerializeField] AudioClip buttonSE;
+	AudioSource source;
+
+	void Start()
+	{
+		source = GetComponent<AudioSource>();
+	}
+
+	//ボタンが押された時に実行される関数
+	public void GotoGame()
     {
-        //ゲーム画面に移動する
-        SceneManager.LoadScene("GameScene");
+		source.PlayOneShot(buttonSE);
+		//ゲーム画面に移動する
+		SceneManager.LoadScene("GameScene");
     }
 }
