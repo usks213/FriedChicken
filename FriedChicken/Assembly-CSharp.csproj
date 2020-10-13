@@ -81,6 +81,7 @@
     <Compile Include="Assets\Script\ResultButton.cs" />
     <Compile Include="Assets\Script\TimeUI.cs" />
     <Compile Include="Assets\Script\TitleButton.cs" />
+    <Compile Include="Assets\Script\TitleButtonSelect.cs" />
     <Compile Include="Assets\Script\TutorialButton.cs" />
     <Compile Include="Assets\Script\gameMgr.cs" />
     <Compile Include="Assets\Scripts\FloatTest.cs" />
