@@ -660,11 +660,17 @@
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>D:/Unity/FriedChicken/FriedChicken/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+      <HintPath>D:/Unity/FriedChicken/FriedChicken/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>D:/Unity/FriedChicken/FriedChicken/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
       <HintPath>D:/Unity/FriedChicken/FriedChicken/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>D:/Unity/FriedChicken/FriedChicken/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ShaderGraph.Editor">
       <HintPath>D:/Unity/FriedChicken/FriedChicken/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
@@ -677,12 +683,6 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>D:/Unity/FriedChicken/FriedChicken/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>D:/Unity/FriedChicken/FriedChicken/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>D:/Unity/FriedChicken/FriedChicken/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
