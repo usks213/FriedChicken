@@ -11,14 +11,17 @@ public class Player : MonoBehaviour
     AudioSource source;
     [SerializeField] AudioClip jumpSE;
     [SerializeField] GoalUI goalUI;
+    [SerializeField] TimeUI timeUI;
     [SerializeField] PlayerAnim anim;
-
+    [SerializeField] CharacterMoveBase cmove;
 
     // Start is called before the first frame update
     void Start()
     {
         rb2d = transform.GetComponent<Rigidbody>();
         source = transform.GetComponent<AudioSource>();
+
+        cmove.SetTrans(transform);
     }
 
     // Update is called once per frame
@@ -26,8 +29,9 @@ public class Player : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Space))
         {
-            rb2d.velocity = new Vector3(0, rb2d.velocity.y, 0);
-            rb2d.AddForce(transform.up * moveForce);
+            //rb2d.velocity = new Vector3(0, rb2d.velocity.y, 0);
+            //rb2d.AddForce(transform.up * moveForce);
+            cmove.Jump();
             source.PlayOneShot(jumpSE);
         }
 
@@ -52,6 +56,7 @@ public class Player : MonoBehaviour
         {
             //SceneManager.LoadScene("ResultScene");
             goalUI.StartGoal();
+            timeUI.OnGoal();
         }
     }
 

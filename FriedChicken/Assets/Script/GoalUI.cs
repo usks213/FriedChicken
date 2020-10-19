@@ -26,7 +26,7 @@ public class GoalUI : MonoBehaviour
     {
        if(bAlpha)
         {
-            color.a += 0.01f;
+            color.a += Time.deltaTime;
             sr.color = color;
 
             if(color.a > 3)

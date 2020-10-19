@@ -516,7 +516,9 @@ MonoBehaviour:
   rotateSpeed: 120
   jumpSE: {fileID: 8300000, guid: 14269a0ccc904564da8be55c60cf9dd0, type: 3}
   goalUI: {fileID: 1541592474}
+  timeUI: {fileID: 511563565}
   anim: {fileID: 1932004952}
+  cmove: {fileID: 11400000, guid: 0c0582ceb43f081448f01fb843ae26bd, type: 2}
 --- !u!54 &405980860
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -552,6 +554,18 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 981280759}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &511563565 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1261701405737753462, guid: c51eeaec043de7a42a23c8f31674ca5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 981280759}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2419591bfc989b9428ccaff5067f0aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &688020983
 GameObject:
   m_ObjectHideFlags: 0
@@ -917,6 +931,12 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1261701405737753462, guid: c51eeaec043de7a42a23c8f31674ca5e,
+        type: 3}
+      propertyPath: goalTime
+      value: 
+      objectReference: {fileID: 11400000, guid: 2f1407bbb4c2cf94bae4ebf290c1c605,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c51eeaec043de7a42a23c8f31674ca5e, type: 3}
 --- !u!1 &1030155249
@@ -1495,7 +1515,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99ff434fd9d28f047a7377130599a854, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  test: {fileID: 11400000, guid: 4bca8cdad753200499f4baf1e32d8ec8, type: 2}
+  test: {fileID: 11400000, guid: bce84af8f12458347b3eeaabca67a12b, type: 2}
 --- !u!114 &1541592474 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5345778762478159597, guid: f498a3d5ffa23e54dbba85802e9346ab,
