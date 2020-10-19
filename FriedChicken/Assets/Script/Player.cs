@@ -57,6 +57,7 @@ public class Player : MonoBehaviour
             //SceneManager.LoadScene("ResultScene");
             goalUI.StartGoal();
             timeUI.OnGoal();
+            GetComponent<ScorePush>().PushScore();
         }
     }
 

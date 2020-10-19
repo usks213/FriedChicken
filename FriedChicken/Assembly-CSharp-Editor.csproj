@@ -62,6 +62,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Editor\NCMBMenu.cs" />
+    <Compile Include="Assets\Editor\PreBuildAndroid.cs" />
+    <Compile Include="Assets\Editor\SimpleJSON.cs" />
+    <Compile Include="Assets\Editor\SimpleJSONBinary.cs" />
+    <Compile Include="Assets\Editor\SimpleJSONUnity.cs" />
+    <Compile Include="Assets\Editor\UpdateXcodeProject.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

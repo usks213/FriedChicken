@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89e5526901575fa458966611d0f46a32, type: 3}
   m_Name: PlayerName
   m_EditorClassIdentifier: 
-  Value: aaaa
+  Value: "\u3042\u3051\u307F"

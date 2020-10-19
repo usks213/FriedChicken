@@ -353,9 +353,9 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1947758498}
   - {fileID: 1560396955}
   - {fileID: 891455903}
+  - {fileID: 1947758498}
   m_Father: {fileID: 1632182477}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -962,7 +962,7 @@ RectTransform:
   - {fileID: 92434521}
   - {fileID: 464080117}
   m_Father: {fileID: 218209107}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1103,7 +1103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86bd1386c9905994b80e325b5314995b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: {fileID: 11400000, guid: c66536b440ab62d4f9cfa84b5bc94c90, type: 2}
+  playername: {fileID: 11400000, guid: c66536b440ab62d4f9cfa84b5bc94c90, type: 2}
   text: {fileID: 464080118}
 --- !u!114 &891455908
 MonoBehaviour:
@@ -1118,6 +1118,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonSE: {fileID: 8300000, guid: 2a000c8e320226143b84d17a46daddb3, type: 3}
+  inputName: {fileID: 891455907}
 --- !u!82 &891455909
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1788,7 +1789,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 218209107}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6773,7 +6774,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1947758498
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6787,7 +6788,7 @@ RectTransform:
   m_Children:
   - {fileID: 1282791491}
   m_Father: {fileID: 218209107}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6807,6 +6808,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonSE: {fileID: 8300000, guid: a06d59630b613b742a04230025db114a, type: 3}
+  inputName: {fileID: 0}
 --- !u!114 &1947758500
 MonoBehaviour:
   m_ObjectHideFlags: 0

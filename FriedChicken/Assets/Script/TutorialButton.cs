@@ -7,6 +7,7 @@ public class TutorialButton : MonoBehaviour
 {
 	[SerializeField] AudioClip buttonSE;
 	AudioSource source;
+    [SerializeField] InputName inputName;
 
 	void Start()
 	{
@@ -17,6 +18,7 @@ public class TutorialButton : MonoBehaviour
 	public void GotoGame()
     {
 		source.PlayOneShot(buttonSE);
+        inputName.SetName();
 		//ゲーム画面に移動する
 		SceneManager.LoadScene("GameScene");
     }

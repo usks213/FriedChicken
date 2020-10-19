@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class InputName : MonoBehaviour
 {
-    [SerializeField] StringValue name;
+    [SerializeField] StringValue playername;
     [SerializeField] Text text;
 
     // Start is called before the first frame update
@@ -24,6 +24,6 @@ public class InputName : MonoBehaviour
 
     public void SetName()
     {
-        name.Value = text.text;
+        playername.Value = text.text;
     }
 }
